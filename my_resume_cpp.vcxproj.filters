@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{a41ac15e-8fc1-4d22-8883-163e57f78ec4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Presentation">
+      <UniqueIdentifier>{2cbf5e50-5a8f-44b0-b43b-23e062ed6b91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Domain">
+      <UniqueIdentifier>{54af7846-b39f-4cfa-bf82-e3b07f2d1da8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{6c1880f9-1c8d-4311-a331-06f16cdd9197}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\BuildMode">
+      <UniqueIdentifier>{44d3f269-5c18-4a64-b57d-46945cc1c595}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Contants">
+      <UniqueIdentifier>{9305ba3d-9e01-4de3-b773-fb5e43c1c236}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Library">
+      <UniqueIdentifier>{71883604-e67e-4dbf-9865-b1b3b44acea4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Data_Source">
+      <UniqueIdentifier>{da7912cd-333d-41d8-8c7c-0eb942bcf468}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Data_Source\Remote">
+      <UniqueIdentifier>{846f7f08-9e74-4c2e-99e1-f4717b9daf15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Presentation\Screen">
+      <UniqueIdentifier>{fa47d245-bfb8-40f7-99ce-b7d26baf5ebe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application.h" />
+    <ClInclude Include="Core\BuildMode\BuildMode.h">
+      <Filter>Core\BuildMode</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Constants\Consts.h">
+      <Filter>Core\Contants</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Library\Library.h">
+      <Filter>Core\Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\Data_Source\Remote\Remote_Api.h">
+      <Filter>Data\Data_Source\Remote</Filter>
+    </ClInclude>
+    <ClInclude Include="Presentation\Screen\Home.h">
+      <Filter>Presentation\Screen</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
